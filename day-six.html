@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desafio Alura</title>
+    <title>#7DaysOfCode - Lógica JS 6/7: Remoção de Arrays</title>
 </head>
 <body>
     <header>
@@ -24,8 +24,16 @@
         </div>
     </header>
     <h2>Desafio seis:</h2>
-    <p>Tarefa de hoje é reescrever o código abaixo de maneira que ele imprima as informações de maneira correta, que faça sentido e sem erros:</p>
-    <img src="day-six.png">
+    <p>Você deverá criar a opção de remover algum item da lista, que será exibida junto à pergunta de "você deseja adicionar uma comida na lista de compras"?</p>
+    <p>A partir daí, caso a pessoa escolha essa opção, o programa irá imprimir os elementos presentes na lista atual, e a pessoa deverá escrever qual deles deseja remover.</p>
+    <p>Depois disso, o programa irá remover o elemento da lista e imprimir a confirmação de que o item realmente não está mais lá.</p>
+    <p>Por fim, ele voltará para o ciclo inicial de perguntas.</p>
+    <p>Se, na hora de deletar o item, o mesmo não for encontrado na lista, você deverá exibir uma mensagem avisando isso.</p>
+    <p>Por exemplo: "Não foi possível encontrar o item dentro da lista!"</p>
+    <p>Lembre-se que a opção de remover um item só deverá estar disponível a partir do momento que existir ao menos um elemento dentro da lista de compras.</p>
+    <form>
+        <input type="button" onclick="listaDeComprasMelhorada();" value="Start" class="enviar">
+    </form>
     <script src="day-six.js"></script>
 </body>
 </html>
